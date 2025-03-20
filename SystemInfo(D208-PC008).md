@@ -11,7 +11,7 @@ The systeminfo command is a powerful built-in tool in Windows that provides deta
   * "**Hardware Details**": Memory, disk drives, network adapters, etc.
   * "**Updates**"         : Information about installed updates and patches.
  ### LINKS:
- * [Microsoft](https://support.microsoft.com/en-us/topic/description-of-microsoft-system-information-msinfo32-exe-tool-10d335d8-5834-90b4-8452-42c58e61f9fc#:~:text=Windows%20includes%20a%20tool%20called,use%20to%20diagnose%20computer%20issues.)
- * [Dell](https://support.microsoft.com/en-us/topic/description-of-microsoft-system-information-msinfo32-exe-tool-10d335d8-5834-90b4-8452-42c58e61f9fc#:~:text=Windows%20includes%20a%20tool%20called,use%20to%20diagnose%20computer%20issues.)
+ * [Microsoft](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/systeminfo)
+ * [Dell](https://www.dell.com/support/kbdoc/en-ca/000284775/how-to-use-the-systeminfo-command-to-obtain-configuration-information)
 
 
