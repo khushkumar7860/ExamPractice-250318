@@ -1,0 +1,99 @@
+
+C:\Users\IT25JanKK>WMIC CPU GET NAME
+Name
+13th Gen Intel(R) Core(TM) i7-13700
+
+
+C:\Users\IT25JanKK>wmic alias list brief
+FriendlyName         PWhere                                          Target
+NICConfig            Where Index=#                                   Select * from Win32_NetworkAdapterConfiguration
+SysDriver            where Name='#'                                  Select * from Win32_SystemDriver
+TapeDrive                                                            Select * from Win32_TapeDrive
+NTEventLog           WHERE LogfileName='#'                           Select * from Win32_NTEventlogFile
+UserAccount                                                          Select * from Win32_UserAccount
+Job                  WHERE jobid=#                                   Select * from Win32_ScheduledJob
+SoftwareElement                                                      Select * from Win32_SoftwareElement
+Volume               Where DeviceID = '#'                            Select * from Win32_Volume
+NetProtocol                                                          Select * from Win32_NetworkProtocol
+QuotaSetting                                                         Select * from Win32_QuotaSetting
+Group                                                                Select * from Win32_Group
+BIOS                                                                 Select * from Win32_BIOS
+UPS                                                                  Select * from Win32_UninterruptiblePowerSupply
+Server                                                               Select * from Win32_PerfRawData_PerfNet_Server
+VolumeUserQuota      Where Account = # and Volume = #                Select * from Win32_VolumeUserQuota
+ShadowCopy           Where ID = '#'                                  Select * from Win32_ShadowCopy
+RDAccount            Where AccountName = '#' and TerminalName = '#'  Select * from Win32_TSAccount
+Port                                                                 Select * from Win32_PortResource
+PrinterConfig        WHERE Name='#'                                  Select * from Win32_PrinterConfiguration
+Environment                                                          Select * from Win32_Environment
+Registry                                                             Select * from Win32_Registry
+BootConfig                                                           Select * from Win32_BootConfiguration
+DesktopMonitor       WHERE DEVICEID='#'                              Select * from WIN32_DESKTOPMONITOR
+QFE                                                                  Select * from Win32_QuickFixEngineering
+PrintJob             WHERE JobId=#                                   Select * from Win32_PrintJob
+DiskDrive            WHERE Index=#                                   Select * from Win32_DiskDrive
+VolumeQuotaSetting   Where Element = # and Setting = #               Select * from Win32_VolumeQuotaSetting
+RDToggle             Where ServerName = '#'                          Select * from Win32_TerminalServiceSetting
+Startup              where Caption='#'                               Select * from Win32_StartupCommand
+OS                                                                   Select * from Win32_OperatingSystem
+IRQ                  WHERE IRQNumber=#                               Select * from Win32_IRQResource
+Share                WHERE Name='#'                                  Select * from Win32_Share
+ComputerSystem                                                       Select * from Win32_ComputerSystem
+ShadowStorage        Where DiffVolume = # and Volume = #             Select * from Win32_ShadowStorage
+Service              WHERE Name='#'                                  Select * from Win32_Service
+RDNIC                Where TerminalName = '#'                        Select * from Win32_TSNetworkAdapterSetting
+LOGON                                                                Select * from Win32_LogonSession
+NTDOMAIN             WHERE DomainName='#'                            Select * from Win32_NTDomain
+RDPermissions        Where TerminalName = '#'                        Select * from Win32_TSPermissionsSetting
+PortConnector        WHERE ExternalReferenceDesignator='#'           Select * from Win32_PortConnector
+IDECONTROLLER                                                        Select * from Win32_IDEController
+MEMCACHE             WHERE DeviceID='#'                              Select * from WIN32_CACHEMEMORY
+TimeZone                                                             Select * from Win32_TimeZone
+LogicalDisk          WHERE Name='#'                                  Select * from Win32_LogicalDisk
+MemoryChip           Where Tag = '#'                                 Select * from Win32_PhysicalMemory
+SoundDev             WHERE Name='#'                                  Select * from WIN32_SoundDevice
+Product              WHERE Name='#'                                  Select * from Win32_Product
+DMAChannel           Where DMAChannel=#                              Select * from Win32_DMAChannel
+DeviceMemoryAddress                                                  Select * from Win32_DeviceMemoryAddress
+FSDir                WHERE Name='#'                                  Select * from Win32_Directory
+NIC                  WHERE DeviceID=#                                Select * from Win32_NetworkAdapter
+Temperature                                                          Select * from Win32_TemperatureProbe
+DESKTOP              WHERE Name='#'                                  Select * from WIN32_DESKTOP
+DiskQuota                                                            Select * from Win32_DiskQuota
+DataFile             Where Name = '#'                                Select * from CIM_DataFile
+DCOMAPP              WHERE Name='#'                                  Select * from WIN32_DCOMApplication
+Process              WHERE ProcessId='#'                             Select * from Win32_Process
+BaseBoard                                                            Select * from Win32_BaseBoard
+LoadOrder                                                            Select * from Win32_LoadOrderGroup
+PageFileSet                                                          Select * from Win32_PageFileSetting
+Partition            WHERE Index=#                                   Select * from Win32_DiskPartition
+SysAccount           WHERE Name='#'                                  Select * from Win32_SystemAccount
+PageFile                                                             Select * from Win32_PageFileUsage
+SystemSlot                                                           Select * from Win32_SystemSlot
+SystemEnclosure                                                      Select * from Win32_SystemEnclosure
+WMISet                                                               Select * from Win32_WMISetting
+Voltage                                                              Select * from Win32_VoltageProbe
+RecoverOS                                                            Select * from Win32_OSRecoveryConfiguration
+CDROM                Where Drive='#'                                 Select * from Win32_CDROMDrive
+NTEvent              WHERE EventType=#                               Select * from Win32_NTLogEvent
+Printer              WHERE Name='#'                                  Select * from Win32_Printer
+OnBoardDevice                                                        Select * from Win32_OnBoardDevice
+SoftwareFeature                                                      Select * from Win32_SoftwareFeature
+MemPhysical                                                          Select * from Win32_PhysicalMemoryArray
+NetUse               WHERE LocalName='#'                             Select * from Win32_NetworkConnection
+CPU                  Where DeviceID='#'                              Select * from WIN32_PROCESSOR
+Alias                Where FriendlyName = '#'                        Select * from Msft_CliAlias
+NetLogin             WHERE Name='#'                                  Select * from Win32_NetworkLoginProfile
+NetClient            WHERE Name='#'                                  Select * from WIN32_NetworkClient
+SCSICONTROLLER                                                       Select * from Win32_SCSIController
+CSProduct                                                            Select * from Win32_ComputerSystemProduct
+
+
+C:\Users\IT25JanKK>
+
+C:\Users\IT25JanKK>wmic bios get serialnumber
+SerialNumber
+3N2VDZ3
+
+
+C:\Users\IT25JanKK>
